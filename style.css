@@ -1,0 +1,107 @@
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.gameImage{
+    width: 100%;
+    border-radius: 5%; 
+    border-bottom: 8px solid grey;
+    border-top: 6px solid grey;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}   
+
+body {
+    background: linear-gradient(to bottom, #514689, #a7a4e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.slider {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.slick-slide {
+  margin: 0px 10px;
+}
+
+.slick-slide img {
+  height: 100%;
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  /*opacity: .2;*/
+}
+
+.slick-active {
+  /*opacity: .5;*/
+}
+
+.slick-current img{ 
+    border-radius: 5%; 
+    border-bottom: 8px solid red;
+    border-top: 6px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid red;             
+}
+.centreLogo {
+    display: block;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+}   
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  #BFBFBF;
+    color: white;
+    text-align: center;
+}
+
+@font-face {
+  font-family: SNESFont;
+  src: URL('resources/Fonts/SNES.ttf');
+}
+@font-face {
+  font-family: Nintendo;
+  src: URL('resources/Fonts/Nintend.otf');
+}
+h1{
+    font-family: SNESFont;
+    font-size: 75px;
+}
+
+p{
+    font-family: Nintendo;
+    color: black;
+
+}

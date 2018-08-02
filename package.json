@@ -1,0 +1,14 @@
+{
+  "name": "SNESGameLauncher",
+  "version": "1.0.0",
+  "description": "A quick app to provide a frontend for launching roms in ZSNES",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Joe Pitts",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "2.0.6"
+  }
+}
