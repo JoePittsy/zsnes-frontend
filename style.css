@@ -35,7 +35,7 @@ body {
 
 .slider {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .slick-slide {
@@ -71,7 +71,8 @@ body {
 }
 .centreLogo {
     display: block;
-    margin-top: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
@@ -103,5 +104,14 @@ h1{
 p{
     font-family: Nintendo;
     color: black;
+    font-size: 28px;
+    margin: 0;
 
+}
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
 }
