@@ -14,6 +14,8 @@
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script src="script.js" type="text/javascript" charset="utf-8"></script>
+    <script src="commands.js" type="text/javascript" charset="utf-8"></script>
+
     <title>SNES</title>
 
 
@@ -41,7 +43,6 @@
         $('#gameCar').on('afterChange',function(slick, currentSlide){
             console.log(currentSlide.currentSlide);
             $('#sneaky').html(currentSlide.currentSlide);
-            $('#name').html(games[currentSlide.currentSlide][0]+" ☆");
             if(games[currentSlide.currentSlide][3] == 0){
                 $('#name').html(games[currentSlide.currentSlide][0]+" ☆");
             } else {
@@ -56,10 +57,25 @@
  
 
         <div id="textbox">
-          <div class="alignleft" style="display: flex; align-items: center;"><img style="display: inline;" src="resources/icons/cont.svg" width="42px"> <p id = gamepadPrompt style="display: inline;">&nbspDisconnected&nbsp</p></div>
-          <div class="alignleft" style="display: flex; align-items: center;"><img style="display: inline;" src="resources/icons/A.png" width="42px"> <p style="display: inline;">&nbspSelect Game</p></div>
-          <div class="alignleft" style="display: flex; align-items: center;"><img style="display: inline;" src="resources/icons/Y.png" width="42px"> <p style="display: inline;">&nbspFavourite</p></div>
-          <div class="alignleft" style="display: flex; align-items: center;"><img style="display: inline;" src="resources/icons/B.png" width="42px"> <p id = 'fav' style="display: inline;">&nbspShow Favourites:OFF</p></div>
+            <div class="alignleft" style="display: flex; align-items: center;">
+                <img style="display: inline;" src="resources/icons/cont.svg" width="42px"> 
+                <p id = gamepadPrompt style="display: inline;">&nbspDisconnected&nbsp</p>
+            </div>
+            <div class="alignleft" style="display: flex; align-items: center;">
+                <img name = "gamePadIcon" style="display: inline; display: none;" src="resources/icons/A.png" width="42px">
+                <img name = "keyBoardIcon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE/SURBVGhD7Zm9SsYwGEYrguCmi6OTIAguungBuugoXpODXoM4eys6Cd/o7KQ46OCiPg+fgRASf96mycvHc+BAadPSU9oOySCEEGKRWIH7lV2FzdmEn5Xdhc1Z2JBnox/QVYiVF6iQGigkQSG1cBeyBe8M3kNXITw5viGrVhSSEoe8wTOjKXvw5ttL7igwSQgvWosTGK7L76mEQlIsIcfwfL5ZxH0II94hx19wRwHXIXEE5c9hG+ZwG5KLOIIlXIb8N4K4C0kj6Ct8+MVHGMZ3D9mBfPrhuNXuIUvwCobjVl28WsvwGoYx9AmewsM/egBLNAshuZhbuAbH0jSETBXTPISkMTO4AcfQJYSEmBoRpFsIYcz6fHM0XUNqopCUOIQTyrmJ5imtNokdh/RWIYTLXbllsB52WXoTQgjxA8PwBR6R9vWrF3AVAAAAAElFTkSuQmCC" height="32px">
+                <p style="display: inline;">Select Game&nbsp</p>
+            </div>
+            <div class="alignleft" style="display: flex; align-items: center;">
+                <img name = "gamePadIcon" style="display: inline; display: none;" src="resources/icons/Y.png" width="42px">
+                <img name = "keyBoardIcon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD1SURBVGhD7ZgxCgIxEEXTeABbC7H0DGJp56G8hQcTbLW39QA6HxIIS0J2E5mJ4T94OLtmZR5YrSOEEELI4KzEdedixyJn8dO52LEIQxRdHHIXU/9RC7FLdcgNNzoBu5iGbLytmIbsxIcXcwtmIVj8KYbfwtwSYxIyjQi2xKiH5CKCtTGqIaWIYE2MWkgq4pWZ4dIYtZCD+BbDsxfxGl1jxr1wjbN4Zi5qIeAoYkEsDKYhAN/hDM4uQTUEbP0nSIWA+Mxc1ENiciE1MAQyxMOQBKYhe/HkxdyCacgvYchQIcO8fOhVhvTmrJBhXmITQggh5D9x7gvSRdQurGe75wAAAABJRU5ErkJggg==" height = "32px">
+                <p style="display: inline;">Favourite&nbsp</p>
+            </div>
+            <div class="alignleft" style="display: flex; align-items: center;">
+                <img name = "gamePadIcon" style="display: inline; display: none" src="resources/icons/B.png" width="42px">
+                <img name = "keyBoardIcon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG+SURBVGhD7ZlPKwVRGMYHCyUlJSyUsmYh2dlYYCUpWzdbn4C9hT9fQJbEBlkpCxuSpJTyCSgLZcHCQuTP80znreM4d6arjnvunfdXv+6875yZOc+tmTO3myiKoiiK8ptluFEjcq5luYNfNSLnWpa6DLINVyKTc6o4yAgbkcE5aZCY0CCxEUWQGbgAJ9Pqb/xLkH14ZZxiw+EQ8rw7afWTJvOZR/Ag/VCOo5y0iy/IHDyFm2mVT/Agq5DHXJvPN9gBbXxBzqDbyyJokEZ4D3nMLHwy2/PQxg2yCx8he7wu63GYRdAgY5DjX2Eb3DI1v20bN4hcx9YN7xI0iEz8KK2SZBqy/oS9bBjcIO3wArK3Z+pmmEWwIK3wBXL8GhyCPO7d9BahEPU9UoIy3ucNFKIOcgw59gHyZhXPoZxnABJfkBPI3kFa5RMkSA/8gBy7xIYF9/Ee4T75SeoLwvWDPT4o1uEEzCJIEL5uyNhBNhwuIffdwgboCzIMn6GcpypPrS7YZ/TBBVH28xWk22x3QhuO4/oxClvYyCBIkGqgQWJDg8RGsYNwgeJaEZOcU8VBYrcYQermbwVFURRFKSBJ8g0TaR2SU+XJFwAAAABJRU5ErkJggg==" height = '32px'>
+                <p id = 'fav' style="display: inline;">Show Favourites OFF</p>
+            </div>
           <div style="clear: both;"></div>
         </div>
     </div>
