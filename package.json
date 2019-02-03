@@ -12,6 +12,7 @@
     "electron": "2.0.6"
   },
   "dependencies": {
-    "nedb": "^1.8.0"
+    "nedb": "^1.8.0",
+    "file-system" : "^2.2.2"
   }
 }

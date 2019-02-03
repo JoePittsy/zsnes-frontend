@@ -1,27 +1,5 @@
-{"_id":1,"name":"Chrono Trigger","picPath":"SNES/Chrono Trigger.jpg","romPath":"SNES/Chrono Trigger.smc","favStatus":1}
-{"_id":2,"name":"Contra III - The Alien Wars","picPath":"SNES/Contra III - The Alien Wars.jpg","romPath":"SNES/Contra III - The Alien Wars.smc","favStatus":1}
-{"_id":3,"name":"Donkey Kong Country","picPath":"SNES/Donkey Kong Country.jpg","romPath":"SNES/Donkey Kong Country.smc","favStatus":0}
-{"_id":4,"name":"Earthworm Jim","picPath":"SNES/Earthworm Jim.jpg","romPath":"SNES/Earthworm Jim.smc","favStatus":0}
-{"_id":5,"name":"Final Fight","picPath":"SNES/Final Fight.jpg","romPath":"SNES/Final Fight.sfc","favStatus":0}
-{"_id":6,"name":"Frogger","picPath":"SNES/Frogger.jpg","romPath":"SNES/Frogger.sfc","favStatus":0}
-{"_id":7,"name":"F-Zero","picPath":"SNES/F-Zero.jpeg","romPath":"SNES/F-Zero.smc","favStatus":1}
-{"_id":8,"name":"Kirby's Dream Course","picPath":"SNES/Kirbys Dream Course.jpg","romPath":"SNES/Kirbys Dream Course.smc","favStatus":0}
-{"_id":9,"name":"Kirby Super Star","picPath":"SNES/Kirby Super Star.jpg","romPath":"SNES/Kirby Super Star.smc","favStatus":0}
-{"_id":10,"name":"Mario Paint","picPath":"SNES/Mario Paint.jpg","romPath":"SNES/Mario Paint.smc","favStatus":0}
-{"_id":11,"name":"Mega Man X","picPath":"SNES/Mega Man X.jpg","romPath":"SNES/Mega Man X.smc","favStatus":1}
-{"_id":12,"name":"Mortal Kombat 3","picPath":"SNES/Mortal Kombat 3.jpg","romPath":"SNES/Mortal Kombat 3.smc","favStatus":0}
-{"_id":13,"name":"Ms. Pac-Man","picPath":"SNES/Ms. Pac-Man.jpg","romPath":"SNES/Ms. Pac-Man.smc","favStatus":0}
-{"_id":14,"name":"R-Type III - The Third Lightning","picPath":"SNES/R-Type III - The Third Lightning.jpg","romPath":"SNES/R-Type III - The Third Lightning.sfc","favStatus":0}
-{"_id":15,"name":"Space Invaders","picPath":"SNES/Space Invaders.jpg","romPath":"SNES/Space Invaders.smc","favStatus":0}
-{"_id":16,"name":"Star Fox","picPath":"SNES/Star Fox.jpg","romPath":"SNES/Star Fox.sfc","favStatus":0}
-{"_id":17,"name":"Street Fighter II - The World Warrior","picPath":"SNES/Street Fighter II - The World Warrior.jpg","romPath":"SNES/Street Fighter II - The World Warrior.smc","favStatus":0}
-{"_id":18,"name":"Sunset Riders","picPath":"SNES/Sunset Riders.jpg","romPath":"SNES/Sunset Riders.smc","favStatus":0}
-{"_id":19,"name":"Super Bomberman 2","picPath":"SNES/Super Bomberman 2.jpg","romPath":"SNES/Super Bomberman 2.smc","favStatus":0}
-{"_id":20,"name":"Super Double Dragon","picPath":"SNES/Super Double Dragon.jpg","romPath":"SNES/Super Double Dragon.smc","favStatus":1}
-{"_id":21,"name":"Super Mario Kart","picPath":"SNES/Super Mario Kart.jpg","romPath":"SNES/Super Mario Kart.smc","favStatus":0}
-{"_id":22,"name":"Super Mario World 2 - Yoshi's Island","picPath":"SNES/Super Mario World2Yoshis Island.jpg","romPath":"SNES/Super Mario World2Yoshis Island.smc","favStatus":0}
-{"_id":23,"name":"Super Mario World","picPath":"SNES/Super Mario World.jpg","romPath":"SNES/Super Mario World.smc","favStatus":0}
-{"_id":24,"name":"Super Metroid","picPath":"SNES/Super Metroid.jpg","romPath":"SNES/Super Metroid.smc","favStatus":0}
-{"_id":25,"name":"Super R-Type","picPath":"SNES/Super R-Type.jpg","romPath":"SNES/Super R-Type.smc","favStatus":0}
-{"_id":26,"name":"Tetris Attack","picPath":"SNES/Tetris Attack.jpg","romPath":"SNES/Tetris Attack.smc","favStatus":0}
-{"_id":27,"name":"Bust-A-Move","picPath":"SNES/Bust-A-Move.jpg","romPath":"SNES/Bust-A-Move.smc","favStatus":0}
+{"_id":1,"name":"3 Ninjas Kick Back","picPath":"SNES/3 Ninjas Kick Back/3 Ninjas Kick Back.jpg","romPath":"SNES/3 Ninjas Kick Back/3 Ninjas Kick Back.smc","favStatus":0}
+{"_id":2,"name":"Frogger","picPath":"SNES/Frogger/Frogger.jpg","romPath":"SNES/Frogger/Frogger.sfc","favStatus":0}
+{"_id":3,"name":"Madden NFL","picPath":"SNES/Madden NFL/Madden NFL 98.jpg","romPath":"SNES/Madden NFL/Madden NFL 98.smc","favStatus":1}
+{"_id":4,"name":"Mega Man X","picPath":"SNES/Mega Man X/Mega Man X.jpg","romPath":"SNES/Mega Man X/Mega Man X.smc","favStatus":0}
+{"_id":9,"name":"Super R-Type","picPath":"SNES/Super R-Type/Super R-Type.jpg","romPath":"SNES/Super R-Type/Super R-Type.smc","favStatus":0}
